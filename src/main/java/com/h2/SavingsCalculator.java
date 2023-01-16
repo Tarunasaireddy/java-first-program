@@ -42,7 +42,7 @@ public class SavingsCalculator
   }
   public static void main(String[] args)
   {
-    final String[] creditsAsString = args[0].split(",");
+        final String[] creditsAsString = args[0].split(",");
         final String[] debitsAsString = args[1].split(",");
 
         final float[] credits = new float[creditsAsString.length];
@@ -60,5 +60,5 @@ public class SavingsCalculator
         float netSavings = calculator.calculate();
         System.out.println("Net Savings = " + netSavings + ", remaining days in month = " + remainingDaysInMonth(LocalDate.now()));
     }
-  }
+  
 }
