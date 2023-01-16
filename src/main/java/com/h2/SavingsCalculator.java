@@ -1,4 +1,4 @@
-pakage com.h2;
+package com.h2;
 public SavingsCalculator
 {
 }
