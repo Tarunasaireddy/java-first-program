@@ -36,4 +36,8 @@ public class SavingsCalculator
     int remainingDays=totalDaysInMonth-date.getDayOfMonth();
     return remainingDays;
   }
+  public float calculate()
+  {
+    return 0;
+  }
 }
